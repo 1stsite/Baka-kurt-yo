@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<body> 
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    /* This style sets the width of all images to 100%: */
+    img {
+      width: 100%;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <img src="307941235_580151513905039_2056167793976708278_n.jpg" alt="HTML5 Icon" width="128" height="1000">
+    
+
+        <div class="container">
+            <p id="question">mahal mo ba ako?</p>
+            <button class="btn" id="yes">Yes</button>
+            <button class="btn" id="hinde">Hinde</button>
+
+        </div>
+    </div>
+</body>
+<script>
+    const noBtn = document.getElementById('hinde');
+    const yesBtn = document.getElementById('yes');
+    const ques = document.getElementById('question');
+    noBtn . addEventListener("click", ()=>{
+        let rand = Math.floor(Math.ramdom() * (500 - 100) + 1);
+        let rand2 = Math.floor(Math.ramdom() * (-300 - 100) + 1);
+        noBtn.style.transform = "translate("+rand+"px,"+rand2+"px)";
+    });
+    yesBtn.addEventListener("click", ()=>{
+        ques.innerHTML = "I love you too <3"
+    })
+</script>
+</html>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">
+      CREARED BY: <a href="https://www.facebook.com/clarence.fabs" target="_blank">click mo pogi to</a>
+    </p>
+  </footer>
+
+ 
